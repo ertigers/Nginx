@@ -1,0 +1,424 @@
+2020-09-27 16:30:51,058 INFO  - Installing service 'nginx (nginx)'...
+2020-09-27 16:30:51,240 INFO  - Service 'nginx (nginx)' was installed successfully.
+2020-09-27 16:31:11,912 INFO  - Service 'nginx (nginx)' was refreshed successfully.
+2020-09-27 16:31:11,920 INFO  - Starting service 'nginx (nginx)'...
+2020-09-27 16:31:12,103 DEBUG - Starting WinSW in service mode.
+2020-09-27 16:31:12,120 INFO  - Service 'nginx (nginx)' was refreshed successfully.
+2020-09-27 16:31:12,163 INFO  - Starting D:\Work\2020.9\nginx\nginx.exe
+2020-09-27 16:31:12,241 INFO  - Started process nginx (11868).
+2020-09-27 16:31:12,287 INFO  - Service started successfully.
+2020-09-27 16:31:12,399 INFO  - Service 'nginx (nginx)' started successfully.
+2020-09-27 16:45:45,447 INFO  - Stopping nginx
+2020-09-27 16:45:48,600 ERROR - Failed to shut down service.
+System.InvalidOperationException: 只有在处理 Start、Stop、Pause 和 Continue 命令时才能调用 UpdatePendingStatus。
+   在 System.ServiceProcess.ServiceBase.RequestAdditionalTime(Int32 milliseconds)
+   在 WinSW.WrapperService.DoStop()
+   在 WinSW.WrapperService.OnShutdown()
+2020-09-27 16:52:16,213 DEBUG - Starting WinSW in service mode.
+2020-09-27 16:52:16,254 INFO  - Service 'nginx (nginx)' was refreshed successfully.
+2020-09-27 16:52:16,271 INFO  - Starting D:\Work\2020.9\nginx\nginx.exe
+2020-09-27 16:52:16,551 INFO  - Started process nginx (10700).
+2020-09-27 16:52:16,577 INFO  - Service started successfully.
+2020-09-27 16:52:23,378 INFO  - Stopping nginx
+2020-09-27 16:52:23,409 DEBUG - Stopping process 'nginx (10700)'...
+2020-09-27 16:52:23,410 DEBUG - Process 'nginx (10700)' terminated.
+2020-09-27 16:52:23,426 DEBUG - Found child process 'nginx (10868)'.
+2020-09-27 16:52:23,427 DEBUG - Stopping process 'nginx (10868)'...
+2020-09-27 16:52:23,445 DEBUG - Process 'nginx (10868)' canceled with code -1073741510.
+2020-09-27 16:52:23,448 ERROR - Failed to stop service.
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 WinSW.WrapperService.StartProcess(String executable, String arguments, LogHandler logHandler, Action`1 onExited)
+   在 WinSW.WrapperService.<DoStop>g__StartProcessLocked|29_0(String executable, String arguments, LogHandler logHandler)
+   在 WinSW.WrapperService.DoStop()
+   在 WinSW.WrapperService.OnStop()
+2020-09-27 17:05:52,955 INFO  - Service 'nginx (nginx)' was refreshed successfully.
+2020-09-27 17:05:52,964 INFO  - Starting service 'nginx (nginx)'...
+2020-09-27 17:05:52,970 INFO  - Service 'nginx (nginx)' has already started.
+2020-09-27 17:06:12,105 INFO  - Service 'nginx (nginx)' was refreshed successfully.
+2020-09-27 17:06:12,113 INFO  - Stopping service 'nginx (nginx)'...
+2020-09-27 17:06:12,150 FATAL - 无法停止计算机“.”上的 nginx 服务。
+2020-09-27 17:19:31,952 DEBUG - Starting WinSW in the service mode
+2020-09-27 17:19:31,977 INFO  - Starting D:\Work\2020.9\nginx\nginx.exe 
+2020-09-27 17:19:32,337 INFO  - Started process 4080
+2020-09-27 17:19:32,339 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2020-09-27 17:21:29,009 INFO  - Stopping nginx
+2020-09-27 17:21:29,009 DEBUG - ProcessKill 4080
+2020-09-27 17:21:29,110 INFO  - Found child process: 6408 Name: nginx.exe
+2020-09-27 17:21:29,134 INFO  - Found child process: 1720 Name: conhost.exe
+2020-09-27 17:21:29,158 INFO  - Stopping process 1720
+2020-09-27 17:21:29,160 INFO  - Send SIGINT 1720
+2020-09-27 17:21:29,173 WARN  - SIGINT to 1720 failed - Killing as fallback
+2020-09-27 17:21:29,175 INFO  - Stopping process 6408
+2020-09-27 17:21:29,176 INFO  - Send SIGINT 6408
+2020-09-27 17:21:29,179 WARN  - SIGINT to 6408 failed - Killing as fallback
+2020-09-27 17:21:29,180 INFO  - Stopping process 4080
+2020-09-27 17:21:29,182 INFO  - Send SIGINT 4080
+2020-09-27 17:21:29,182 WARN  - SIGINT to 4080 failed - Killing as fallback
+2020-09-27 17:21:29,184 INFO  - Finished nginx
+2020-09-27 17:21:29,185 DEBUG - Completed. Exit code is 0
+2020-09-27 17:26:07,059 DEBUG - Starting WinSW in the service mode
+2020-09-27 17:26:07,868 INFO  - Starting D:\Work\2020.9\nginx\nginx.exe 
+2020-09-27 17:26:10,679 INFO  - Started process 1116
+2020-09-27 17:26:10,935 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2020-09-28 15:48:25,623 INFO  - Stopping nginx
+2020-09-28 15:48:25,646 DEBUG - ProcessKill 1116
+2020-09-28 15:48:25,909 INFO  - Found child process: 7788 Name: nginx.exe
+2020-09-28 15:48:25,939 INFO  - Found child process: 7796 Name: conhost.exe
+2020-09-28 15:48:25,993 INFO  - Stopping process 7796
+2020-09-28 15:48:26,004 INFO  - Send SIGINT 7796
+2020-09-28 15:48:26,005 WARN  - SIGINT to 7796 failed - Killing as fallback
+2020-09-28 15:48:26,009 INFO  - Stopping process 7788
+2020-09-28 15:48:26,011 INFO  - Send SIGINT 7788
+2020-09-28 15:48:26,027 WARN  - SIGINT to 7788 failed - Killing as fallback
+2020-09-28 15:48:26,028 INFO  - Stopping process 1116
+2020-09-28 15:48:26,030 INFO  - Send SIGINT 1116
+2020-09-28 15:48:26,033 WARN  - SIGINT to 1116 failed - Killing as fallback
+2020-09-28 15:48:26,034 INFO  - Finished nginx
+2020-09-28 15:48:26,039 DEBUG - Completed. Exit code is 0
+2020-09-28 15:48:27,279 DEBUG - Starting WinSW in the service mode
+2020-09-28 15:48:27,301 INFO  - Starting D:\Work\2020.9\nginx\nginx.exe 
+2020-09-28 15:48:27,356 INFO  - Started process 5172
+2020-09-28 15:48:27,359 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2020-11-02 09:33:19,630 INFO  - Stopping nginx
+2020-11-02 09:33:19,659 DEBUG - ProcessKill 5172
+2020-11-02 09:33:19,895 INFO  - Found child process: 13488 Name: nginx.exe
+2020-11-02 09:33:19,931 INFO  - Found child process: 10704 Name: conhost.exe
+2020-11-02 09:33:19,979 INFO  - Stopping process 10704
+2020-11-02 09:33:19,983 INFO  - Send SIGINT 10704
+2020-11-02 09:33:19,999 WARN  - SIGINT to 10704 failed - Killing as fallback
+2020-11-02 09:33:20,028 INFO  - Stopping process 13488
+2020-11-02 09:33:20,031 INFO  - Send SIGINT 13488
+2020-11-02 09:33:20,110 WARN  - SIGINT to 13488 failed - Killing as fallback
+2020-11-02 09:33:20,110 INFO  - Stopping process 5172
+2020-11-02 09:33:20,168 INFO  - Send SIGINT 5172
+2020-11-02 09:33:20,168 WARN  - SIGINT to 5172 failed - Killing as fallback
+2020-11-02 09:33:20,170 INFO  - Finished nginx
+2020-11-02 09:33:20,214 DEBUG - Completed. Exit code is 0
+2021-10-18 15:01:05,975 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:01:06,158 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:01:06,160 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'nginx' already exists
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:01:32,088 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:01:32,288 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:01:32,294 FATAL - Failed to uninstall the service with id 'nginx'. WMI Error code is 'AccessDenied'
+2021-10-18 15:01:32,295 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 winsw.WrapperService.<Run>g__Uninstall|33_1(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:01:32,385 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:01:32,571 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:01:32,572 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'nginx' already exists
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:01:45,367 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:01:45,575 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:01:45,581 FATAL - Failed to uninstall the service with id 'nginx'. WMI Error code is 'AccessDenied'
+2021-10-18 15:01:45,582 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 winsw.WrapperService.<Run>g__Uninstall|33_1(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:02:21,621 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:02:21,825 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:02:21,831 FATAL - Failed to uninstall the service with id 'nginx'. WMI Error code is 'AccessDenied'
+2021-10-18 15:02:21,832 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 winsw.WrapperService.<Run>g__Uninstall|33_1(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:02:21,921 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:02:22,109 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:02:22,111 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'nginx' already exists
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:02:23,502 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:02:23,710 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:02:23,716 FATAL - Failed to uninstall the service with id 'nginx'. WMI Error code is 'AccessDenied'
+2021-10-18 15:02:23,716 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 winsw.WrapperService.<Run>g__Uninstall|33_1(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:02:23,808 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:02:23,994 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:02:23,995 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'nginx' already exists
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:04:36,729 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:04:36,946 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:04:36,952 FATAL - Failed to uninstall the service with id 'nginx'. WMI Error code is 'AccessDenied'
+2021-10-18 15:04:36,953 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 winsw.WrapperService.<Run>g__Uninstall|33_1(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:11:51,484 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:11:51,724 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:12:01,092 WARN  - The service with id 'nginx' does not exist. Nothing to uninstall
+2021-10-18 15:12:01,094 DEBUG - Completed. Exit code is 0
+2021-10-18 15:12:01,177 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:12:01,366 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:12:01,372 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] arguments)
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:12:46,293 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:12:46,491 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:12:46,493 WARN  - The service with id 'nginx' does not exist. Nothing to uninstall
+2021-10-18 15:12:46,493 DEBUG - Completed. Exit code is 0
+2021-10-18 15:12:46,578 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:12:46,764 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:12:46,770 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] arguments)
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:13:38,785 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:13:38,979 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:13:38,985 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] arguments)
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:15:16,500 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:15:16,723 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:15:16,724 WARN  - The service with id 'nginx' does not exist. Nothing to uninstall
+2021-10-18 15:15:16,725 DEBUG - Completed. Exit code is 0
+2021-10-18 15:15:16,805 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:15:16,987 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:15:16,994 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] arguments)
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:16:18,098 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:16:18,289 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:16:18,297 DEBUG - Completed. Exit code is 0
+2021-10-18 15:16:44,855 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:16:44,870 INFO  - Starting D:\nginx\nginx.exe 
+2021-10-18 15:16:45,321 INFO  - Started process 6152
+2021-10-18 15:16:45,324 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:17:52,488 INFO  - Stopping nginx
+2021-10-18 15:17:52,488 DEBUG - ProcessKill 6152
+2021-10-18 15:17:52,588 INFO  - Found child process: 6404 Name: nginx.exe
+2021-10-18 15:17:52,638 INFO  - Found child process: 6192 Name: conhost.exe
+2021-10-18 15:17:52,688 INFO  - Stopping process 6192
+2021-10-18 15:17:52,694 INFO  - Send SIGINT 6192
+2021-10-18 15:17:52,695 WARN  - SIGINT to 6192 failed - Killing as fallback
+2021-10-18 15:17:52,695 INFO  - Stopping process 6404
+2021-10-18 15:17:52,703 INFO  - Send SIGINT 6404
+2021-10-18 15:17:52,704 WARN  - SIGINT to 6404 failed - Killing as fallback
+2021-10-18 15:17:52,704 INFO  - Stopping process 6152
+2021-10-18 15:17:52,711 INFO  - Send SIGINT 6152
+2021-10-18 15:17:52,711 WARN  - SIGINT to 6152 failed - Killing as fallback
+2021-10-18 15:17:52,712 INFO  - Finished nginx
+2021-10-18 15:17:52,713 DEBUG - Completed. Exit code is 0
+2021-10-18 15:17:53,886 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:17:53,898 INFO  - Starting D:\nginx\nginx.exe 
+2021-10-18 15:17:54,052 INFO  - Started process 16096
+2021-10-18 15:17:54,056 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:18:26,780 INFO  - Stopping nginx
+2021-10-18 15:18:26,780 DEBUG - ProcessKill 16096
+2021-10-18 15:18:26,844 INFO  - Found child process: 6340 Name: nginx.exe
+2021-10-18 15:18:26,894 INFO  - Found child process: 12084 Name: conhost.exe
+2021-10-18 15:18:26,946 INFO  - Stopping process 12084
+2021-10-18 15:18:26,954 INFO  - Send SIGINT 12084
+2021-10-18 15:18:26,955 WARN  - SIGINT to 12084 failed - Killing as fallback
+2021-10-18 15:18:26,956 INFO  - Stopping process 6340
+2021-10-18 15:18:26,963 INFO  - Send SIGINT 6340
+2021-10-18 15:18:26,963 WARN  - SIGINT to 6340 failed - Killing as fallback
+2021-10-18 15:18:26,963 INFO  - Stopping process 16096
+2021-10-18 15:18:26,974 INFO  - Send SIGINT 16096
+2021-10-18 15:18:26,974 WARN  - SIGINT to 16096 failed - Killing as fallback
+2021-10-18 15:18:26,975 INFO  - Finished nginx
+2021-10-18 15:18:26,976 DEBUG - Completed. Exit code is 0
+2021-10-18 15:18:28,164 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:18:28,176 INFO  - Starting D:\nginx\nginx.exe 
+2021-10-18 15:18:28,327 INFO  - Started process 12808
+2021-10-18 15:18:28,331 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:18:56,782 INFO  - Stopping nginx
+2021-10-18 15:18:56,782 DEBUG - ProcessKill 12808
+2021-10-18 15:18:56,847 INFO  - Found child process: 5940 Name: nginx.exe
+2021-10-18 15:18:56,899 INFO  - Found child process: 15060 Name: conhost.exe
+2021-10-18 15:18:56,953 INFO  - Stopping process 15060
+2021-10-18 15:18:56,959 INFO  - Send SIGINT 15060
+2021-10-18 15:18:56,959 WARN  - SIGINT to 15060 failed - Killing as fallback
+2021-10-18 15:18:56,959 INFO  - Stopping process 5940
+2021-10-18 15:18:56,966 INFO  - Send SIGINT 5940
+2021-10-18 15:18:56,966 WARN  - SIGINT to 5940 failed - Killing as fallback
+2021-10-18 15:18:56,966 INFO  - Stopping process 12808
+2021-10-18 15:18:56,977 INFO  - Send SIGINT 12808
+2021-10-18 15:18:56,977 WARN  - SIGINT to 12808 failed - Killing as fallback
+2021-10-18 15:18:56,978 INFO  - Finished nginx
+2021-10-18 15:18:56,979 DEBUG - Completed. Exit code is 0
+2021-10-18 15:18:58,168 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:18:58,180 INFO  - Starting D:\nginx\nginx.exe 
+2021-10-18 15:18:58,333 INFO  - Started process 9184
+2021-10-18 15:18:58,338 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:19:38,487 INFO  - Stopping nginx
+2021-10-18 15:19:38,487 DEBUG - ProcessKill 9184
+2021-10-18 15:19:38,550 INFO  - Found child process: 18672 Name: nginx.exe
+2021-10-18 15:19:38,602 INFO  - Found child process: 11032 Name: conhost.exe
+2021-10-18 15:19:38,658 INFO  - Stopping process 11032
+2021-10-18 15:19:38,664 INFO  - Send SIGINT 11032
+2021-10-18 15:19:38,664 WARN  - SIGINT to 11032 failed - Killing as fallback
+2021-10-18 15:19:38,665 INFO  - Stopping process 18672
+2021-10-18 15:19:38,674 INFO  - Send SIGINT 18672
+2021-10-18 15:19:38,674 WARN  - SIGINT to 18672 failed - Killing as fallback
+2021-10-18 15:19:38,674 INFO  - Stopping process 9184
+2021-10-18 15:19:38,682 INFO  - Send SIGINT 9184
+2021-10-18 15:19:38,682 WARN  - SIGINT to 9184 failed - Killing as fallback
+2021-10-18 15:19:38,684 INFO  - Finished nginx
+2021-10-18 15:19:38,685 DEBUG - Completed. Exit code is 0
+2021-10-18 15:19:39,874 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:19:39,886 INFO  - Starting D:\nginx\nginx.exe 
+2021-10-18 15:19:40,037 INFO  - Started process 15928
+2021-10-18 15:19:40,041 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:20:43,574 INFO  - Stopping nginx
+2021-10-18 15:20:43,574 DEBUG - ProcessKill 15928
+2021-10-18 15:20:43,643 INFO  - Found child process: 13544 Name: nginx.exe
+2021-10-18 15:20:43,694 INFO  - Found child process: 7452 Name: conhost.exe
+2021-10-18 15:20:43,745 INFO  - Stopping process 7452
+2021-10-18 15:20:43,753 INFO  - Send SIGINT 7452
+2021-10-18 15:20:43,754 WARN  - SIGINT to 7452 failed - Killing as fallback
+2021-10-18 15:20:43,755 INFO  - Stopping process 13544
+2021-10-18 15:20:43,760 INFO  - Send SIGINT 13544
+2021-10-18 15:20:43,761 WARN  - SIGINT to 13544 failed - Killing as fallback
+2021-10-18 15:20:43,761 INFO  - Stopping process 15928
+2021-10-18 15:20:43,767 INFO  - Send SIGINT 15928
+2021-10-18 15:20:43,768 WARN  - SIGINT to 15928 failed - Killing as fallback
+2021-10-18 15:20:43,772 INFO  - Finished nginx
+2021-10-18 15:20:43,773 DEBUG - Completed. Exit code is 0
+2021-10-18 15:20:44,961 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:20:44,974 INFO  - Starting D:\nginx\nginx.exe 
+2021-10-18 15:20:45,127 INFO  - Started process 12116
+2021-10-18 15:20:45,131 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:21:17,878 INFO  - Stopping nginx
+2021-10-18 15:21:17,878 DEBUG - ProcessKill 12116
+2021-10-18 15:21:17,941 INFO  - Found child process: 19168 Name: nginx.exe
+2021-10-18 15:21:17,991 INFO  - Found child process: 19588 Name: conhost.exe
+2021-10-18 15:21:18,042 INFO  - Stopping process 19588
+2021-10-18 15:21:18,048 INFO  - Send SIGINT 19588
+2021-10-18 15:21:18,049 WARN  - SIGINT to 19588 failed - Killing as fallback
+2021-10-18 15:21:18,050 INFO  - Stopping process 19168
+2021-10-18 15:21:18,059 INFO  - Send SIGINT 19168
+2021-10-18 15:21:18,059 WARN  - SIGINT to 19168 failed - Killing as fallback
+2021-10-18 15:21:18,059 INFO  - Stopping process 12116
+2021-10-18 15:21:18,068 INFO  - Send SIGINT 12116
+2021-10-18 15:21:18,069 WARN  - SIGINT to 12116 failed - Killing as fallback
+2021-10-18 15:21:18,072 INFO  - Finished nginx
+2021-10-18 15:21:18,073 DEBUG - Completed. Exit code is 0
+2021-10-18 15:21:20,426 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:21:20,441 INFO  - Starting D:\nginx\nginx.exe 
+2021-10-18 15:21:20,605 INFO  - Started process 16184
+2021-10-18 15:21:20,608 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:23:01,030 INFO  - Stopping nginx
+2021-10-18 15:23:01,030 DEBUG - ProcessKill 16184
+2021-10-18 15:23:01,131 INFO  - Found child process: 15812 Name: nginx.exe
+2021-10-18 15:23:01,182 INFO  - Found child process: 16936 Name: conhost.exe
+2021-10-18 15:23:01,234 INFO  - Stopping process 16936
+2021-10-18 15:23:01,242 INFO  - Send SIGINT 16936
+2021-10-18 15:23:01,243 WARN  - SIGINT to 16936 failed - Killing as fallback
+2021-10-18 15:23:01,244 INFO  - Stopping process 15812
+2021-10-18 15:23:01,249 INFO  - Send SIGINT 15812
+2021-10-18 15:23:01,249 WARN  - SIGINT to 15812 failed - Killing as fallback
+2021-10-18 15:23:01,249 INFO  - Stopping process 16184
+2021-10-18 15:23:01,260 INFO  - Send SIGINT 16184
+2021-10-18 15:23:01,260 WARN  - SIGINT to 16184 failed - Killing as fallback
+2021-10-18 15:23:01,261 INFO  - Finished nginx
+2021-10-18 15:23:01,262 DEBUG - Completed. Exit code is 0
+2021-10-18 15:23:02,418 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:23:02,430 INFO  - Starting D:\nginx\nginx.exe 
+2021-10-18 15:23:02,580 INFO  - Started process 9152
+2021-10-18 15:23:02,584 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:24:23,999 INFO  - Stopping nginx
+2021-10-18 15:24:23,999 DEBUG - ProcessKill 9152
+2021-10-18 15:24:24,066 INFO  - Found child process: 15848 Name: nginx.exe
+2021-10-18 15:24:24,114 INFO  - Found child process: 656 Name: conhost.exe
+2021-10-18 15:24:24,165 INFO  - Stopping process 656
+2021-10-18 15:24:24,174 INFO  - Send SIGINT 656
+2021-10-18 15:24:24,174 WARN  - SIGINT to 656 failed - Killing as fallback
+2021-10-18 15:24:24,175 INFO  - Stopping process 15848
+2021-10-18 15:24:24,181 INFO  - Send SIGINT 15848
+2021-10-18 15:24:24,181 WARN  - SIGINT to 15848 failed - Killing as fallback
+2021-10-18 15:24:24,181 INFO  - Stopping process 9152
+2021-10-18 15:24:24,193 INFO  - Send SIGINT 9152
+2021-10-18 15:24:24,193 WARN  - SIGINT to 9152 failed - Killing as fallback
+2021-10-18 15:24:24,195 INFO  - Finished nginx
+2021-10-18 15:24:24,195 DEBUG - Completed. Exit code is 0
+2021-10-18 15:27:44,836 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:27:45,078 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:27:45,079 WARN  - The service with id 'nginx' does not exist. Nothing to uninstall
+2021-10-18 15:27:45,080 DEBUG - Completed. Exit code is 0
+2021-10-18 15:27:45,173 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:27:45,365 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:27:45,378 DEBUG - Completed. Exit code is 0
+2021-10-18 15:27:45,476 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:27:45,648 INFO  - Starting C:\Users\Administrator\Desktop\works\nginx\nginx.exe 
+2021-10-18 15:27:45,666 INFO  - Started process 9908
+2021-10-18 15:27:45,669 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:28:08,754 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:28:08,770 INFO  - Starting C:\Users\Administrator\Desktop\works\nginx\nginx.exe 
+2021-10-18 15:28:08,783 INFO  - Started process 3760
+2021-10-18 15:28:08,786 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:28:42,805 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:28:43,019 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:28:43,026 DEBUG - Completed. Exit code is 0
+2021-10-18 15:29:26,601 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:29:26,834 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:29:26,845 DEBUG - Completed. Exit code is 0
+2021-10-18 15:29:52,810 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:29:53,031 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:29:53,033 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'nginx' already exists
+   在 winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2021-10-18 15:30:09,667 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:30:09,683 INFO  - Starting C:\Users\Administrator\Desktop\works\nginx\nginx.exe 
+2021-10-18 15:30:09,696 INFO  - Started process 3680
+2021-10-18 15:30:09,698 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender
+2021-10-18 15:30:14,400 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:30:14,612 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:30:14,618 DEBUG - Completed. Exit code is 0
+2021-10-18 15:30:36,516 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:30:36,704 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:30:36,713 DEBUG - Completed. Exit code is 0
+2021-10-18 15:32:16,467 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:32:16,666 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:32:16,676 DEBUG - Completed. Exit code is 0
+2021-10-18 15:34:05,602 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:34:05,794 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:34:05,803 DEBUG - Completed. Exit code is 0
+2021-10-18 15:35:57,814 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:35:58,002 INFO  - Uninstalling the service with id 'nginx'
+2021-10-18 15:35:58,004 WARN  - The service with id 'nginx' does not exist. Nothing to uninstall
+2021-10-18 15:35:58,004 DEBUG - Completed. Exit code is 0
+2021-10-18 15:36:11,428 DEBUG - Starting WinSW in the CLI mode
+2021-10-18 15:36:11,609 INFO  - Installing the service with id 'nginx'
+2021-10-18 15:36:11,618 DEBUG - Completed. Exit code is 0
+2021-10-18 15:36:37,615 DEBUG - Starting WinSW in the service mode
+2021-10-18 15:36:37,630 INFO  - Starting C:\Users\Administrator\Desktop\works\nginx\nginx.exe 
+2021-10-18 15:36:37,640 INFO  - Started process 13136
+2021-10-18 15:36:37,644 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.RollingLogAppender

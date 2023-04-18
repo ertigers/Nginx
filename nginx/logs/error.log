@@ -1,0 +1,5 @@
+2021/10/18 15:23:01 [alert] 4324#6832: OpenEvent("ngx_master_16184") failed (2: The system cannot find the file specified)
+2021/10/18 15:24:24 [alert] 7464#18932: OpenEvent("ngx_master_9152") failed (2: The system cannot find the file specified)
+2021/10/18 15:27:45 [emerg] 9908#12792: bind() to 0.0.0.0:9586 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2021/10/18 15:28:08 [emerg] 3760#3800: bind() to 0.0.0.0:9586 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2021/10/18 15:30:09 [emerg] 3680#7180: bind() to 0.0.0.0:9586 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)

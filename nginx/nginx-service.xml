@@ -1,0 +1,11 @@
+<!-- nginx-service.xml -->
+<service>
+    <id>nginx</id>
+    <name>nginx</name>
+    <description>nginx</description>
+    <logpath>C:\Users\Administrator\Desktop\works\nginx\</logpath>
+    <logmode>roll</logmode>
+    <depend></depend>
+    <executable>C:\Users\Administrator\Desktop\works\nginx\nginx.exe</executable>
+    <stopexecutable>C:\Users\Administrator\Desktop\works\nginx\nginx.exe -s stop</stopexecutable>
+</service>
